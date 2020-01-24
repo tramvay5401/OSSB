@@ -21,6 +21,14 @@
         <header class="header">
           <div class="container">
             <div class="header__top">
+              <div class="header__top-res">
+                  <div class="header__top-res-row">
+                    <a class="tel" href="tel:+380673292947">+38 (067) 329 29 47</a><a class="reg" href="#">Регистрация</a>
+                  </div>
+                  <div class="header__top-res-row">
+                    <a class="mail" href="#">e-mailmail@i.ua</a><a class="open" href="#">Вход</a>
+                  </div>
+              </div>
               <ul class="header__top-list">
                 <li>
                   <a href="tel:+380673292947">+38 (067) 329 29 47</a>
@@ -34,6 +42,15 @@
               </ul>
             </div>
             <div class="header__bottom">
+              <div class="menu__burger-inner">
+                <a href="#" class="logo"> <span>ОСББ</span> "ГОНЧАРА 62" </a>
+                <div class="menu__burger">
+                  <div></div>
+                  <div></div>
+                  <div></div> 
+                </div>
+                
+              </div>
               <nav class="header__nav">
                 <ul>
                   <li><a href="#">Главная</a></li>
@@ -51,14 +68,14 @@
         <div class="container">
           <section class="registration">
             <div class="registration__inner">
-              <div class="registration__title">
+              <h2 class="registration__title">
                 Зарегистрируйтесь сейчас <br />
                 <span>чтобы знать новости первым!</span>
-              </div>
+              </h2>
               <form class="registration__form ">
                 <input type="text" placeholder="Ваше имя" />
-                <input type="phone" placeholder="Ваш номер телефона" />
-                <button type="submit">готово!</button>
+                <input type="text" placeholder="Ваш номер телефона" />
+                <div class="button__inner"><button type="submit">готово!</button></div> 
               </form>
               <div class="registration__box">
                 <div class="registration__item">
@@ -81,9 +98,9 @@
         </div>
         <section class="last">
           <div class="container">
-            <div class="last__title">
+            <h2 class="last__title">
               последние фото
-            </div>
+            </h2>
             <div class="last__text">
               Мы создаем новый стиль управления жильем! Чем наш стиль работы
               отличается от других? Мы создаем территорию для комфортного,
@@ -91,17 +108,26 @@
               управляющей компании.
             </div>
             <div class="last__inner">
-              <div class="last__item">
-                <img src="img/content/last__photo_1.jpg" alt="" />
+              <div class="last__item-box">
+                <div class="last__item">
+                  <img src="img/content/last__photo_1.jpg" alt="" />
+                </div> 
               </div>
-              <div class="last__item">
-                <img src="img/content/last__photo_2.jpg" alt="" />
+              
+              <div class="last__item-box">
+                <div class="last__item">
+                  <img src="img/content/last__photo_3.jpg" alt="" />
+                </div> 
               </div>
-              <div class="last__item">
-                <img src="img/content/last__photo_3.jpg" alt="" />
+              <div class="last__item-box">
+                <div class="last__item">
+                  <img src="img/content/last__photo_1.jpg" alt="" />
+                </div> 
               </div>
-              <div class="last__item">
-                <img src="img/content/last__photo_3.jpg" alt="" />
+              <div class="last__item-box">
+                <div class="last__item">
+                  <img src="img/content/last__photo_2.jpg" alt="" />
+                </div> 
               </div>
             </div>
             <div class="last__link">
@@ -111,9 +137,10 @@
         </section>
         <section class="information">
           <div class="container">
-            <div class="information__title">
+            
+            <h2 class="information__title">
               ИНФОРМАЦИЯ прО КОММУНАЛЬНЫЕ УСЛУГИ
-            </div>
+            </h2>
             <div class="information__inner">
               <div class="information__inner-text">
                 <p>
@@ -150,9 +177,9 @@
                 </p>
               </div>
               <div class="information__inner-list">
-                <div class="information__inner-list__title">
+                <h2 class="information__inner-list__title">
                   ПОСТАЧАЛЬНИКИ ПОСЛУГ (ПОДАТИ ПОКАЗНИКИ)
-                </div>
+                </h2>
                 <ul>
                   <li><a href="#">Київенерго (електропостачання)</a></li>
                   <li><a href="#">Київтеплоенерго (тепло та ГВП)</a></li>
@@ -166,9 +193,9 @@
         <div class="container">
           <section class="tariffs">
             <div class="tariffs__wrapper-title">
-              <div class="tariffs__title">
+              <h2 class="tariffs__title">
                 тарифы
-              </div>
+              </h2>
               <div class="tariffs__inner">
                 <form class="tariffs__form">
                   <div class="tariffs__form-text">
@@ -207,9 +234,9 @@
             </div>
           </section>
           <section class="news">
-            <div class="news__title">
+            <h2 class="news__title">
               последние новости
-            </div>
+            </h2>
             <div class="news__inner-wrapper">
               <div class="news__inner">
                 <div class="nesw__item-inner">
@@ -225,6 +252,9 @@
                   </div>
                 </div>
                 <div class="news__item">
+                  <div class="news__item-title title__bottom">
+                    Повышение контроля руководства за деятельностью ОСББ.
+                  </div>
                   <img src="img/content/news__item-img.jpg" alt="">
                 </div>
               </div>
@@ -232,9 +262,9 @@
               <div class="news__inner">
                 <div class="nesw__item-inner">
                 <div class="news__item">
-                  <div class="news__item-title">
+                  <h3 class="news__item-title">
                     Повышение контроля руководства за деятельностью ОСББ.
-                  </div>
+                  </h3>
                   <div class="news__item-text">
                    <p>Информирование о текущем балансе, сохранение истории платежей, начисление квартплат. Информирование о текущем балансе, сохранение истории платежей, начисление квартплат. Информирование о текущем балансе, сохранение истории платежей, начисление квартплат.</p> 
 
@@ -243,6 +273,9 @@
                   </div>
                 </div>
                 <div class="news__item">
+                  <div class="news__item-title title__bottom">
+                    Повышение контроля руководства за деятельностью ОСББ.
+                  </div>
                   <img src="img/content/news__item-img.jpg" alt="">
                 </div>
               </div>
@@ -261,6 +294,9 @@
                   </div>
                 </div>
                 <div class="news__item">
+                  <div class="news__item-title title__bottom">
+                    Повышение контроля руководства за деятельностью ОСББ.
+                  </div>
                   <img src="img/content/news__item-img.jpg" alt="">
                 </div>
               </div>
@@ -279,6 +315,9 @@
                   </div>
                 </div>
                 <div class="news__item">
+                  <div class="news__item-title title__bottom">
+                    Повышение контроля руководства за деятельностью ОСББ.
+                  </div>
                   <img src="img/content/news__item-img.jpg" alt="">
                 </div>
               </div>
@@ -321,36 +360,36 @@
             </ul>
           </div>
             <div class="footer__content-inner">
-            <div class="footer__content-box">
-              <div class="footer__content-title">
-                навигация
-              </div>
-              <ul class="footer__list">
-                <li> <a href="#"> Главная</a></li>
-                <li><a href="#">Объявления</a></li>
-                <li><a href="#">Управление ОСМД</a></li>
-                <li><a href="#">Отчетность деятельности</a></li>
-                <li><a href="#">Форум для жителей</a></li> 
-                <li><a href="#">Контакты</a></li>
-                <li><a href="#">Регистрация</a></li>          
-                <li><a href="#">Войти</a></li>
-              </ul>
-            </div>  
-           <div class="footer__content-box footer__content-box_mail ">
-             <div class="footer__content-box_mail-text">
-               контакты
-             </div>
-             <ul>
-               <li><a href="tel:+380673292947">+38 (067) 329 29 47</a></li>
-               <li><a href="#">e-mailmail@i.ua</a></li>
-             </ul>
-           </div>  
+              <div class="footer__content-box">
+                <div class="footer__content-title">
+                  навигация
+                </div>
+                <ul class="footer__list">
+                  <li> <a href="#"> Главная</a></li>
+                  <li><a href="#">Объявления</a></li>
+                  <li><a href="#">Управление ОСМД</a></li>
+                  <li><a href="#">Отчетность деятельности</a></li>
+                  <li><a href="#">Форум для жителей</a></li> 
+                  <li><a href="#">Контакты</a></li>
+                  <li><a href="#">Регистрация</a></li>          
+                  <li><a href="#">Войти</a></li>
+                </ul>
+              </div>  
+              <div class="footer__content-box footer__content-box_mail ">
+                <div class="footer__content-box_mail-text">
+                  контакты
+                </div>
+                <ul>
+                  <li><a href="tel:+380673292947">+38 (067) 329 29 47</a></li>
+                  <li><a href="#">e-mailmail@i.ua</a></li>
+                </ul>
+              </div>  
             </div> 
           </div>
         </div>
       </footer>
     </div>
-
+  </div>  
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="js/libs.min.js"></script>
     <script src="js/main.js"></script>
