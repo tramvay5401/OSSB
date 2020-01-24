@@ -11,6 +11,7 @@ $(function() {
         pauseOnDotsHover:true,
         waitForAnimate:false,
         variableWidth:false,
+        
         responsive:[
           {
             breakpoint: 480,
@@ -18,6 +19,8 @@ $(function() {
           }
         ]
       });
+
+ 
 
       $('.news__inner-wrapper').slick({
         arrows:true,
@@ -28,6 +31,8 @@ $(function() {
         autoplaySpeed: 2000,
         variableWidth:false,
       });
+
+
 
       $(".menu__burger").on('click', function(event){
         $('.menu__burger,.header__nav').toggleClass('active');

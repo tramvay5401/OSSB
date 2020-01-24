@@ -368,6 +368,8 @@
   line-height: 20px;
 }
 .last__inner {
+  margin: 0 auto;
+  max-width: 1145px;
   .slider {
     position: relative;
   }
@@ -383,14 +385,14 @@
   .slick-arrow.slick-prev {
     cursor: pointer;
     background: url(../img/icons/last_ico-2.png) 0 0 / 100% no-repeat;
-    left: 480px;
+    left: 415px;
     bottom: 5px;
   }
   /* Стрелка вправо */
   .slick-arrow.slick-next {
     cursor: pointer;
     background: url(../img/icons/last_ico-3.svg) 0 0 / 100% no-repeat;
-    right: 480px;
+    right: 415px;
     bottom: 5px;
   }
   /* Точки (булиты) */
