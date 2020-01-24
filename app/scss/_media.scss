@@ -34,6 +34,7 @@
     }
   }
   .menu__burger-inner {
+    padding: 7px 0;
     display: block;
     display: flex;
     justify-content: space-between;
@@ -397,7 +398,7 @@
     position: relative;
   }
   .registration__inner {
-    padding: 75px 0;
+    padding: 20px 0 65px;
   }
   .tariffs__text {
     width: 100%;
