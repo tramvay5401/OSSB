@@ -3,7 +3,7 @@
 @import "fonts";
 
 // start header
-.header__top-res{
+.header__top-res {
   display: none;
 }
 .menu__burger-inner {
@@ -62,35 +62,47 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    li {
-      position: relative;
-      &::before {
-        position: absolute;
-        top: 0;
-        left: -25px;
-      }
-      &:first-child {
-        &::before {
-          content: url(../img/icons/header__ico-1.svg);
+    .top-list__link {
+      display: flex;
+      align-items: center;
+      a {
+        margin-right: 40px;
+        &::before{
+          position: absolute;
+        }
+        &:first-child {
+          &::before {
+            position: absolute;
+            top: 3px;
+            left: -18px;
+            content: url(../img/icons/header__ico-1.svg);
+          }
+        }
+        &:nth-child(2) {
+          position: relative;
+          &::before {
+            top: 3px;
+            left: -22px;
+            position: absolute;
+            content: url(../img/icons/header__ico-2.svg);
+          }
         }
       }
-      &:nth-child(2) {
-        &::before {
-          content: url(../img/icons/header__ico-2.svg);
+    }
+    .top-list__into {
+      display: flex;
+      align-items: center;
+      a {
+        &:nth-child(1) {
+          margin-right: 40px;
+          display: flex;
+          align-items: center;
+          &::before {
+            padding-top: 5px;
+            content: url(../img/icons/header__ico-3.svg);
+          }
         }
-      }
-      &:nth-child(4) {
-        a {
-          margin-left: 70px;
-        }
-        &::before {
-          left: 20px;
-          top: -3px;
-          content: url(../img/icons/header__ico-3.svg);
-        }
-      }
-      &:nth-child(5) {
-        a {
+        &:nth-child(2) {
           font-size: 16px;
           font-weight: 600;
           display: flex;
@@ -102,11 +114,19 @@
         }
       }
     }
+    li {
+      position: relative;
+      &::before {
+        position: absolute;
+        top: 0;
+        left: -25px;
+      }
+    }
   }
 }
 .logo {
   font-weight: 800;
-  font-size: 20px;
+  font-size: 13px;
   line-height: 151.68%;
   span {
     color: #86bc42;
@@ -329,9 +349,9 @@
     margin: 0 auto;
   }
 }
-.last__item{
+.last__item {
   width: 361px;
-  img{
+  img {
     width: 100%;
     height: auto;
   }
@@ -397,7 +417,6 @@
   }
   /* Точки (булиты) */
   .slick-dots {
-    
     margin-bottom: 40px;
     margin-top: 35px;
     font-size: 0;
@@ -688,7 +707,7 @@
 
 //end tariffs
 // start news
-.title__bottom{
+.title__bottom {
   display: none;
 }
 .news {
@@ -722,13 +741,13 @@
     top: 45px;
     left: -54px;
   }
-  &::after{
+  &::after {
     width: 105px;
     position: absolute;
     display: block;
     height: 1px;
-    content: '';
-    border: 0.3px solid #6E788D;
+    content: "";
+    border: 0.3px solid #6e788d;
     top: -16px;
     left: 50%;
     transform: translateX(-50%);
